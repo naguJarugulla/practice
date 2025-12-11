@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+        }
+
+        /* Navbar */
+        nav {
+            background: #fff;
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #eaecef, #f1f3f5);
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            color: #555;
+        }
+
+        /* Cards */
+        .features {
+            padding: 50px 20px;
+        }
+
+        .features h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        /* About */
+        .about {
+            background: #fff;
+            padding: 50px 20px;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            color: #555;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #f1f1f1;
+            text-align: center;
+            padding: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo"><strong>MyProject</strong></div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Welcome to My Project</h1>
+        <p>This is a simple clean layout created using only HTML & CSS—fully responsive, no JS, no Bootstrap.</p>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Fast & Simple</h3>
+                <p>Easy setup with pure HTML and CSS. Perfect for beginners.</p>
+            </div>
+
+            <div class="card">
+                <h3>Clean UI</h3>
+                <p>Minimal design that looks good on any device.</p>
+            </div>
+
+            <div class="card">
+                <h3>No JavaScript</h3>
+                <p>Lightweight website without any external scripts.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2 style="text-align:center;">About This Project</h2>
+        <p>This project is designed to be simple, clean, and easy to customise. You can use this layout for your portfolio, small business, projects, or personal website.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        © 2025 MyProject — All Rights Reserved
+    </footer>
+
+</body>
+</html>
